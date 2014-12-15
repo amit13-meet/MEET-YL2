@@ -6,4 +6,4 @@ from models import Poll, Choice
 # Remember each function/view the first argument/input has to be request
 
 def homie(request):
-	return "kush"
+	return render(request, 'polls/apage.html')
